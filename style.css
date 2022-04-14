@@ -1,0 +1,57 @@
+.cover {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.cover .masking {
+  position: absolute;
+  width: 100%;
+  margin-right: 10px;
+  bottom: 0;
+  top: 0;
+  background-color:  black;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.cover .credit {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  
+}
+.cover .social a {
+  height: 10px;
+  width: 5px;
+  color: white;
+}
+.cover img{
+  width: 250px;
+  padding-bottom: 50px;
+  
+}
+body    {
+    padding: 20px;
+    background-image: linear-gradient(-20deg, black 0%, gray 100%);
+    text-align: center;
+    font-family: 'quicksand', sans-serif;
+}
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #212121;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1;
+} 
+
+h1 {
+  line-height: 2;
+}
+.margin {margin: bottom 45px;}
+
